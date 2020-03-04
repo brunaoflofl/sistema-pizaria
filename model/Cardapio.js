@@ -1,0 +1,14 @@
+let cardapio = [
+    {
+        nome: "calamussa",
+        preco: "R$ 30,00"
+    },
+    {
+        nome: "catupiry",
+        preco: "R$ 35,00"
+    }
+]
+function listarCardapio(){
+    return cardapio
+}
+module.exports = {listarCardapio}
